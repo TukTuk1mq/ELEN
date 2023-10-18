@@ -1,0 +1,62 @@
+# Logs
+Logs
+*.Logsnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+firebase-debug.log*
+
+# misc
+.DS_Store
+.AppleDouble
+.LSOverrride
+.vs
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Firebase cache
+.firebase/
+firebaserc
+.firebase.json
+database.rules.json
+
+# Compiled binary addons
+dist
+build/Release
+
+# production
+/build
+/dist
+
+# Dependency directories
+node_modules/
+/.pnp
+.pnp.jsonapp/css
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# webstorm user setting files
+.idea
+
+# Runtime data
+pids
+*.pids
+*.seed
+*.pid.lock
